@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,tt,var,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend
+	{
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+body {
+	font-family: "Microsoft Yahei", "STHeiti", "SimSun", "Arail", "Verdana",
+		"Helvetica", "sans-serif";
+	background: #ffffff;
+	font-size: 12px;
+	color: #000000;
+}
+
+img {
+	border: 0;
+}
+
+ol,ul,li {
+	list-style: none;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:link,a:visited {
+	color: #000000;
+}
+
+a:hover,a:active {
+	color: #ffffff;
+}
+
+textarea {
+	resize: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+img {
+	width: inherit;
+	height: inherit;
+}
+
+div {
+	overflow: hidden;
+}
+
+.common-width-all {
+	width: 100%;
+}
+
+.common-width-center {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.common-width-center-left {
+	width: 724px;
+}
+
+.common-width-center-right {
+	width: 256px;
+}
+
+.animate-bgcolor-slow {
+	-webkit-transition: background-color 300ms ease-in 0ms;
+	-moz-transition: background-color 300ms ease-in 0ms;
+	transition: background-color 300ms ease-in 0ms;
+}
+
+.animate-bgcolor-fast {
+	-webkit-transition: background-color 100ms ease-in 0ms;
+	-moz-transition: background-color 100ms ease-in 0ms;
+	transition: background-color 100ms ease-in 0ms;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.cboth {
+	clear: both;
+}

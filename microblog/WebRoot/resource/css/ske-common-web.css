@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+@IMPORT url("ske-common.css");
+
+body {
+	background-image: url('../images/bg/body_bg.png')
+}
+
+.body-head-bg {
+	background-color: #488fce;
+}
+
+.body-bottom-bg {
+	background-color: #deeef2;
+}
+
+.body-bottom {
+	padding: 30px 0;
+	margin-top: 20px;
+}
+
+.body-bottom div {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #818181;
+}
+
+.body-bottom label {
+	margin: 0 5px;
+}
+
+.body-bottom label a:LINK,.body-bottom label a:VISITED {
+	color: #248dac;
+}
+
+.body-bottom label a:HOVER,.body-bottom label a:ACTIVE {
+	color: #61a9be;
+}
+
+.gotop {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+
+.gotop a {
+	background: url('../images/common/ico_gotop.png') 0 0 no-repeat;
+	width: 51px;
+	height: 55px;
+	display: block;
+}
+
+.gotop a:HOVER,.gotop a:ACTIVE {
+	background: url('../images/common/ico_gotop.png') 0 -110 no-repeat;
+}

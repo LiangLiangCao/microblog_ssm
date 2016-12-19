@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.mapper.UserDao">
+	
+	<resultMap type="com.entity.User" id="UserDaoResultMap">
+		<id column="user_id" property="userId" jdbcType="INTEGER"/>
+		<result column="user_name" property="userName" jdbcType="VARCHAR"/>
+		<result column="user_password" property="userPassword" jdbcType="VARCHAR"/>
+	</resultMap>
+	
+	<select id="userLogin" parameterType="com.entity.User" resultMap="UserDaoResultMap">
+		select * from user where user_name=#{userName} and user_password=#{userPassword}
+	</select>
+	
+</mapper>

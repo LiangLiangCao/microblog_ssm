@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<mappers> 
+		<!--<mapper resource="com/dao/mapper/UserMapper.xml"/>
+		<mapper resource="com/dao/mapper/TopicInsertMapper.xml"/> 
+		<mapper resource="com/dao/mapper/TopicListSelectMapper.xml"/>
+	-->
+	
+		<package name="com.dao.mapper"/>
+	</mappers> 
+</configuration>

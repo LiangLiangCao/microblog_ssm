@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.mapper.TopicListSelectDao">
+	
+	<resultMap type="com.entity.Topic" id="TopicListSelectDaoResultMap">
+		<id column="topic_id" property="topicId" jdbcType="INTEGER"/>
+		<result column="topic_userId" property="topicUserId" jdbcType="INTEGER"/>
+		<result column="topic_webtext" property="topicWebtext" jdbcType="VARCHAR"/>
+		
+		<association property="user" javaType="com.entity.User">
+			<result column="user_name" property="userName" jdbcType="VARCHAR"/>
+		</association>
+		
+	</resultMap>
+	
+	
+	 
+	<select id="selectTopicList" parameterType="com.entity.Topic" resultMap="TopicListSelectDaoResultMap">
+		select u.user_name, t.topic_webtext,t.topic_id from topic t, user u where t.topic_userId = u.user_id order by t.topic_id desc
+	</select>
+	
+	
+	
+	
+	<select id="getPraiseCount" parameterType="INTEGER" resultType="INTEGER">
+		select count(p.praise_topicId) from praise p where p.praise_topicId = #{topicId}
+	</select>
+	
+	
+	
+	<resultMap type="com.entity.Topic" id="GetPraiseNameResultMap"> 
+		<collection property="userList" ofType="com.entity.User">
+			<result column="user_name" property="userName" jdbcType="VARCHAR"/> 
+		</collection> 
+	</resultMap>
+	
+	<select id="getPraiseName" parameterType="INTEGER" resultMap="GetPraiseNameResultMap">
+		select u.user_name from praise p inner join user u on(p.praise_userId = u.user_id) where p.praise_topicId = #{topicId}
+	</select>
+	
+	
+</mapper>

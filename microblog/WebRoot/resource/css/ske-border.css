@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+.border-div-shadow {
+	margin: 15px;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25), 0 0 0 6px
+		rgba(255, 255, 255, 0.5), 0 0 16px 8px rgba(0, 0, 0, 0.25);
+	border-radius: 1px 1px 1px 1px;
+}

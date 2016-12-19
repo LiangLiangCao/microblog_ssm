@@ -1,0 +1,263 @@
+@CHARSET "UTF-8";
+
+@IMPORT url("ske-common-web.css");
+
+.index-head {
+	padding: 30px 0;
+}
+
+.index-head .head-top {
+	height: 54px;
+	line-height: 54px;
+	font-size: 16px;
+}
+
+.head-top #logo {
+	width: 236px;
+	background-image: url('../images/logo.png');
+}
+
+.head-top .label {
+	background-color: #488fce;
+	color: #ffffff;
+	margin: 0 5px;
+	padding: 0 20px;
+	border: 0;
+}
+
+.head-top .label:hover {
+	background-color: #a4c7e7;
+	color: #000000;
+}
+
+.head-top .account {
+	margin: 0 10px;
+	padding: 0 20px;
+	background-color: #488fce;
+	color: #ffffff;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.head-top .account .image {
+	width: 20px;
+	height: 20px;
+	margin-top: 17px;
+	margin-right: 5px;
+}
+
+.head-top .account .more {
+	background: url('../images/common/ico_cor10.png') 0 15px no-repeat;
+	width: 10px;
+	height: 30px;
+	margin-top: 12px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.head-top .account .more:hover {
+	background-color: #a4c7e7;
+	color: #000000;
+}
+
+.index-head .head-bottom {
+	height: 100px;
+	line-height: 100px;
+	margin-top: 30px;
+}
+
+.head-bottom .image {
+	width: 100px;
+	height: inherit;
+}
+
+.head-bottom .label {
+	width: 155px;
+	height: inherit;
+	background-color: #ffffff;
+	border-right: 1px dotted #e0e1e2;
+	color: #000000;
+}
+
+.head-bottom .label:hover {
+	background-color: #eaeaea;
+	color: #000000;
+}
+
+.head-bottom .label .span {
+	background: url('../images/common/panel_text.png') no-repeat;
+	width: 51px;
+	height: 70px;
+	display: block;
+	margin: 15px auto 0;
+}
+
+.head-bottom #head-bottom-image-1 {
+	background-position: -3px 0;
+}
+
+.head-bottom #head-bottom-image-2 {
+	background-position: -61px 0;
+}
+
+.head-bottom #head-bottom-image-3 {
+	background-position: -120px 0;
+}
+
+.head-bottom #head-bottom-image-4 {
+	background-position: -181px 0;
+}
+
+.head-bottom .head-bottom-search {
+	width: 256px;
+	height: inherit;
+	background-color: #e0e1e2;
+}
+
+.head-bottom .head-bottom-search .search {
+	width: 185px;
+	height: 100px;
+	margin: 33px auto;
+}
+
+.head-bottom .head-bottom-search .search input[type='text'] {
+	width: 150px;
+	height: 33px;
+	line-height: 33px;
+	border: 0;
+	padding: 0 5px 0 5px;
+	font-size: 14px;
+	color: #d9d9d9;
+}
+
+.head-bottom .head-bottom-search .search input[type='text']:focus {
+	color: #000000;
+}
+
+.head-bottom .head-bottom-search .search input[type='button'] {
+	width: 35px;
+	height: 33px;
+	background: url('../images/common/ico_ndashboard.png') no-repeat;
+	border: 0;
+	cursor: pointer;
+}
+
+.index-center {
+	background-color: #e0e1e2;
+}
+
+.index-right .tip {
+	width: 220px;
+	margin: 20px;
+	background-color: #a9b8c5;
+}
+
+.index-right .tip .title {
+	margin: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.index-right .tip .content {
+	margin: 0 10px 10px 10px;
+}
+
+.index-right .tip .closs {
+	margin: 5px;
+	height: 10px;
+	width: 10px;
+	line-height: 10px;
+}
+
+.index-left {
+	width: inherit;
+	padding-top: 20px;
+	background-image: url('../images/bg/body_bg.png')
+}
+
+.index-left .info {
+	width: 100px;
+}
+
+.index-left .info .image {
+	width: inherit;
+	height: 100px;
+}
+
+.index-left .info .label {
+	width: inherit;
+}
+
+.index-left .info .label div {
+	margin: 10px 15px 0 15px;
+	padding: 5px;
+	text-align: center;
+	font-size: 16px;
+	background-color: #a9b8c5;
+	color: #ffffff;
+	letter-spacing: 5px;
+}
+
+.index-left .info .label div:hover {
+	background-color: #ffffff;
+	color: #488fce;
+}
+
+.index-left .article {
+	width: 624px;
+	background-color: #ffffff;
+	font-size: 14px;
+}
+
+.article .author {
+	margin: 10px 0 5px 30px;
+}
+
+.article .title {
+	margin: 5px 0 15px 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.article .content {
+	margin: 15px 30px;
+}
+
+.article .content .image {
+	width: 150px;
+	height: 250px;
+	margin-right: 20px;
+	overflow: hidden;
+}
+
+.article .content .image img {
+	width: inherit;
+	height: auto;
+}
+
+.article .content .text {
+	width: 390px;
+	color: #666666;
+}
+
+.article .time {
+	margin: 10px 50px 5px 0;
+	color: #666666;
+}
+
+.article .bottom {
+	margin: 0 50px 20px 0;
+}
+
+.article .bottom label {
+	margin-left: 10px;
+	color: #a9b8c5;
+}
+
+.article .bottom label a:LINK,.article .bottom label a:VISITED {
+	color: #a9b8c5;
+}
+
+.article .bottom label a:HOVER,.article .bottom label a:ACTIVE {
+	color: #000000;
+}

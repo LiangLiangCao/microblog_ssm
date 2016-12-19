@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+@IMPORT url("ske-common-web.css");
+
+.write-head {
+	padding: 30px 0;
+}
+
+.write-head .head-top {
+	height: 54px;
+	line-height: 54px;
+	font-size: 16px;
+}
+
+.write-head #logo {
+	width: 236px;
+	background-image: url('../images/logo.png');
+}
+
+.write-center {
+	background-color: #ffffff;
+	margin-top: 20px;
+}
+
+.write-center .title {
+	margin: 30px 40px 0 40px;
+}
+
+.write-center .title .label {
+	color: #458bc9;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.write-center .title .text {
+	margin-top: 20px;
+}
+
+.write-center .title .text input[type='text'] {
+	border: 1px solid #458bc9;
+	padding: 0 10px;
+	height: 27px;
+	line-height: 27px;
+	color: #000000;
+	width: 652px;
+}
+
+.write-center .center {
+	margin: 10px 0 20px 40px;
+}
+
+.write-center .center .editor {
+	width: 652px;
+}
+
+.write-center .center .editor .text {
+	border: 1px solid #458bc9;
+	width: 650px;
+	height: 400px;
+}
+
+.write-center .center .editor .button {
+	margin-top: 10px;
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+}
+
+.write-center .center .editor .button .normal {
+	margin-right: 12px;
+}
+
+.write-center .center .editor .button .special {
+	background: #85bee5;
+	display: inline-block;
+	font-size: 20px;
+	color: #fff;
+	padding: 0 30px;
+}
+
+.write-center .center .left {
+	width: 222px;
+	margin: 0 40px 20px 0;
+}
+
+.write-center .center .left .label {
+	width: 220px;
+	border: 1px solid #458bc9;
+}
+
+.write-center .center .left .label .dispaly {
+	height: 100px;
+	padding: 8px;
+}
+
+.write-center .center .left .label .dispaly .myLabel {
+	background: #A5C3D6;
+	margin: 0 7px 7px 0;
+	padding: 3px 7px 4px 7px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.write-center .center .left .label .dispaly .myLabel a {
+	color: #56ABDA;
+	margin-left: 2px;
+}
+
+.write-center .center .left .label .dispaly input[type='text'] {
+	border: 0px;
+}
+
+.write-center .center .left .label .hot {
+	height: 100px;
+	padding: 8px;
+	background-color: #f7f7f7;
+}
+
+.write-center .center .left .label .hot .hotTitle {
+	color: #c8c6c7;
+}
+
+.write-center .center .left .label .hot .hotLabel {
+	background: #A5C3D6;
+	margin: 7px 7px 0 0;
+	padding: 3px 7px 4px 7px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.write-center .center .left .label select {
+	border: 0px;
+	width: 200px;
+	margin: 10px 5px;
+}
